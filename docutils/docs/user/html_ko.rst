@@ -36,11 +36,11 @@ HTML 작성기 모듈인 ``docutils/writers/html4css1.py`` 은 첫 독유틸즈 
 정확한 렌더링은 CSS_ 스타일시트에 의존한다. 참조 스타일시트인 `html4css1.css`_\ 가 제공되며,
 기본적으로 사용된다.
 
-`Internet Explorer`(이 작성기가 쓰여진 2002년에는 시장점유율이 약 90%였다)를
+`Internet Explorer`\ (이 작성기가 쓰여진 2002년에는 시장점유율이 약 90%였다)를
 지원하기 위해 문서는 하드코드된 포매팅 힌트를 포함하며,
 "text/html" 로 태그되어 있다. ( "application/xhtml+xml" 대신). [#IE]_
 
-.. [#IE] Conformance to `CSS 2.1`_\ 에 대한 적합성은 IE 8 (2009)부터 추가됐으며,
+.. [#IE] Conformance to `CSS 2.1`_\에 대한 적합성은 IE 8 (2009)부터 추가됐으며,
    XHTML에 대한 지원은 IE 9 (2011)부터다.
 
 .. _rst2html.py: tools.html#rst2html-py
